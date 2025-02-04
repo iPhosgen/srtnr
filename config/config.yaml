@@ -1,0 +1,12 @@
+database:
+  host: 127.0.0.1
+  port: 5432
+  user: usr
+  password: pwd
+  dbname: mydb
+  sslmode: true
+  cert_file: "../config/ssl/cert.pem"
+  key_file: "../config/ssl/key.pem" 
+service:
+  host: ""
+  port: 8080
